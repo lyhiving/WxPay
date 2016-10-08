@@ -1,0 +1,25 @@
+{
+    "name": "apptut/wx-pay",
+    "description": "laravel wechat pay lib, base on Wxpay_Api_php_v3 version",
+    "keywords": [
+        "微信支付",
+        "WeChat pat lib",
+        "WeiXin laravel5"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liangqi",
+            "email": "liangqi000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WxPay\\": "src/"
+        }
+    }
+}
